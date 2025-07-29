@@ -1,0 +1,379 @@
+
+
+.footer {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	margin:1px;
+	padding:1px;
+	width:100%;
+	height:40px;
+	color: #818181;
+	background-color:transparent;
+	overflow:hidden;
+	border:1px hidden red;
+}
+
+#AdminInfoButton, #AdminConnButton {
+	z-index:1;
+	display:block;
+	visibility:visible;
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	margin:2px;
+	padding:auto;
+	width:auto;
+	height:auto;
+	font-size: 16px;
+	color:red;
+	background-color:white;
+	border: 2px solid #f44336;
+	box-shadow: -2px -2px 10px white, -12px -10px 10px white;
+	transition-duration: 0.4s;
+	overflow:hidden;
+}
+	
+#AdminConnButton {
+	left:76px;
+}
+
+#AdminInfoButton:hover, #AdminConnButton:hover {
+	color:white;
+	background-color:red;
+	box-shadow: -2px -2px 10px 10px white;
+}
+	
+#showAdminInfo {
+	display:block;
+	visibility:visible;
+	z-index:3;
+	position:fixed;
+	top:0px;
+	left:0px;
+	margin:1px;
+	padding:1px;
+	padding-top:20px;
+	width:0%;
+	height:100%;
+	font-size:16px;
+	text-align:center;
+	color:black;	
+	background-color: #f1f1f1;
+	transition: 0.5s;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#showAdminInfoInside {
+	margin:2px;
+	padding:1px;
+	color:black;
+	background-color: #F5F5F5;
+	opacity:0.8;
+	transition: 0.8s;
+	overflow: hidden;
+}
+
+#showAdminInfoInside  #closebtn {
+	display:none;
+	z-index:4;
+	position: absolute;
+	top:40px;
+	right:10px;
+	margin:2px;
+	padding:1px;
+	font-size: 60px;
+	font-weight:900px;
+	color:#004d26;	
+	background-color:transparent;
+	transition: 0.9s;	
+}
+
+#showAdminInfoInside h3 {
+	z-index:3;
+	margin:8px auto;
+	text-align:center;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #00CC66;
+}
+
+#showAdminInfoInside p:first-of-type {
+	display:none;
+	visibility:hidden;
+	margin:2px auto;
+	padding:2px;
+	text-align:justify;
+}
+
+#showAdminInfoInside p:nth-of-type(2) {
+	display:block;
+	position:relative;
+	margin:2px 22px;
+	padding:2px;
+	text-align:justify;
+}
+
+#showAdminInfoInside span {
+	display:inline;
+	margin:1px;
+	padding:2px;
+	text-align:justify;
+}
+
+#showAdminInfoInside span:nth-of-type(2), #showAdminInfoInside span:nth-of-type(3) {
+	color: #00CC66;
+	font-weight:bold;
+}
+
+#showAdminInfoInside p:nth-of-type(3), #showAdminInfoInside p:nth-of-type(4) {
+	display:block;
+	position:relative;
+	top:0px;
+	margin:0px 24px;
+	padding:2px;
+	text-align:justify;
+}
+
+#AdminForm {
+	display:none;
+	visibility:visible;
+	z-index:2;
+	position:fixed;
+	bottom:40px;
+	left:10px;
+	margin:2px;
+	padding:2px;
+	width:424px;
+	height:100px;
+	font-size:12px;
+	text-align:left;
+	color:black;
+	background-color:#e6f5ff;	
+	border:2px solid #004d26;
+}
+ 
+#AdminForm label {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	position:absolute;
+	top:4px;
+	left:4px;
+	margin:1px;
+	padding:1px;
+	width:120px;
+	height:18px;
+	font-size:12px;
+	text-align:justify;
+	color:#004d26;
+	background-color:transparent;	
+}
+
+#AdminForm #AdminC {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	position:fixed;
+	bottom:50px;
+	left:20px;
+	width:398px;
+	height:60px;
+	font-size:12px;
+	overflow: auto;
+	resize: none;
+}
+ 
+#AdminForm #AdminConnect {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	position:fixed;
+	bottom:10px;
+	left:120px;
+	margin:2px;
+	padding:2px;
+	width:auto;
+	height:auto;		
+	text-align:justify;
+	color:black;
+	border-bottom:2px solid #004d26;
+	border-left:2px solid #004d26;
+	font-size: 16px;
+	background-color:white;
+	color:#004d26;
+	border: 2px solid #004d26;	
+	transition-duration: 0.4s;
+}
+
+#AdminForm #AdminConnect:hover {
+	color:white;
+	background-color:#004d26;
+	box-shadow: -2px -2px 10px 10px white;
+}
+		
+#closebtn2 {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	position:fixed;
+	bottom:108px;
+	left:410px;
+	font-size:32px;
+	font-weight:900px;
+	color:#004d26;
+	background-color:transparent;	
+}
+
+@media only screen and (min-width: 992px) { 
+
+#showAdminInfo {
+	letter-spacing: 2px;
+	line-height: 1.5;
+	font-size:16px;
+}
+
+#showAdminInfoInside p:nth-of-type(2) {
+	margin:8px 100px;
+	margin-bottom:1px;
+	padding:4px;
+}
+
+#showAdminInfoInside p:nth-of-type(3), #showAdminInfoInside p:nth-of-type(4) {
+	margin:1px 100px;
+	padding:4px;
+}
+
+#AdminForm #AdminConnect {
+	padding:1px 4px;
+	font-size: 16px;
+	left:160px;
+}
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+#AdminInfoButton, #AdminConnButton {
+	padding:2px;
+	font-size: 15px;
+}
+
+#AdminConnButton {
+	left:66px;
+}
+
+#showAdminInfo {
+	letter-spacing: 1.5px;
+	line-height: 1.2;
+}
+
+#showAdminInfoInside p:nth-of-type(2) {
+	margin:10px 80px;
+	padding:10px;
+}
+
+#showAdminInfoInside p:nth-of-type(3), #showAdminInfoInside p:nth-of-type(4) {
+	margin:2px 80px;
+	padding:10px;
+}
+
+#AdminForm #AdminConnect {
+	font-size: 15px;
+	left:136px;
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+#AdminInfoButton, #AdminConnButton {
+	padding:2px;
+	font-size: 14px;
+}
+
+#AdminConnButton {
+	left:64px;
+}
+
+#showAdminInfo {
+	font-size:14px;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+#showAdminInfoInside  #closebtn {
+	font-size: 50px;
+}
+
+#showAdminInfoInside h3 {
+	margin:2px auto;
+}
+
+#showAdminInfoInside p:nth-of-type(2) {
+	margin:2px 40px;
+	padding:2px;
+}
+
+#showAdminInfoInside p:nth-of-type(3), #showAdminInfoInside p:nth-of-type(4) {
+	margin:1px 40px;
+	padding:1px;
+}
+
+#AdminForm #AdminConnect {
+	
+	font-size: 14px;
+	left:130px;
+}
+ 
+}
+
+@media only screen and (max-width: 600px) { 
+
+#AdminInfoButton, #AdminConnButton {
+	padding:2px;
+	font-size: 13px;
+}
+
+#AdminConnButton {
+	left:60px;
+}
+
+#showAdminInfo {
+	font-size:12px;
+	letter-spacing: normal;
+	line-height: normal;
+
+}
+
+#showAdminInfoInside  #closebtn {
+	font-size: 50px;
+}
+
+#showAdminInfoInside h3 {
+	margin:2px auto;
+}
+
+#showAdminInfoInside p:nth-of-type(2) {
+	margin:2px 22px;
+	padding:2px;
+}
+
+#showAdminInfoInside p:nth-of-type(3), #showAdminInfoInside p:nth-of-type(4) {
+	margin:1px 22px;
+	padding:2px;
+}
+
+#AdminForm #AdminConnect {
+	font-size: 13px;
+	position:fixed;
+	bottom:10px;
+	left:122px;
+}
+
+}

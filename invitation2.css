@@ -1,0 +1,1221 @@
+
+
+#SendForm1 {
+	display:block;
+	visibility:visible;
+	z-index:1;
+	position:relative;
+	margin:auto;
+	margin-top:4px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	padding:4px;
+	border:2px solid #FE2712; 
+	width:650px;
+	height:460px; 
+	color:#FE2712;
+	background-color:transparent;
+	font-family:Sofia;
+}
+
+[name="SSI1"],#SendForm1F {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	margin-top:4px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	width:630px;
+	height:440px;	
+}
+	
+.SendForm1Labels {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	margin:2px auto;
+	width:150px;
+}
+
+.SendForm1Inputs {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	width:400px;
+}
+	
+[name="nameResieverlabel"] {
+	position: relative;
+	top:20px;
+	right:140px;
+}	
+		
+[name="nameResiever"] {
+	position: relative;
+	top:-10px;
+}
+
+[name="mailResieverlabel"] {
+	position: relative;
+	top:-20px;
+	right:130px;
+}
+
+[name="mailResiever"] {
+	position: relative;
+	top:-50px;
+}
+
+[name="MesageResieverlabel"] {
+	position: relative;
+	top:-50px;
+	right:160px;
+}
+
+[name="mesage1ResieverInput"], [name="mesage2ResieverInput"],#SendForm1Inputs1,#SendForm2Inputs2 {
+	display: inline-block;
+	visibility:visible;
+}
+
+#SendForm1Inputs1 {
+	position: relative;
+	top:-76px;
+	right:190px;
+	width:10px;
+}
+
+[name="mesage1Resieverlabel"] {
+	position: relative;
+	top:-104px;
+	right:0px;
+	left:4px;
+	width:400px;
+}
+
+#SendForm2Inputs2 {
+	position: relative;
+	top:-128px;
+	right:190px;
+	width:10px;
+}
+
+input[type="radio"]:focus, input[type="radio"]:active {
+	border: 0px outset  #151599;
+	border-radius:5px;
+    outline: yellow outset 1px;
+	outline-offset:1px;
+	-webkit-tap-highlight-color: #151599;
+	accent-color: #FE2712;
+}
+
+input:focus, #MesageInvitationForSSW:focus {
+  text-align:left;
+  background-color: #eaeafa;
+}
+
+[name="mesage2Resieverlabel"] {
+	position: relative;
+	top:-156px;
+	left:36px;
+	width:430px;
+}
+
+#SendForm1 textarea, #MesageInvitationForSSW {
+	display: block;
+	visibility:visible;
+	position: relative;
+	top:-176px;
+	margin:auto;
+	text-align:justify;
+	text-indent: 2px;
+	letter-spacing: 1px;
+	line-height: 0.8;
+	word-spacing: 2px;
+	white-space: normal;
+	hyphens: auto;
+	width:400px;
+	height:100px;
+	overflow:visible;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+	caret-color: #FE2712;
+	resize: none;
+    -moz-resize: none;
+	writing-mode: horizontal-tb;
+}
+
+
+[name="SeeInvitationForSSW"], [name="ResetInvitationForSSW"], [name="SendInvitationForSSW"] {
+	display: inline-block;
+	visibility:visible;
+	margin:auto;
+	height:20px; 
+	border-top:0px solid blue;
+	border-left:1px solid #DBE5FF;
+	border-bottom:1px solid #DBE5FF;
+	font-weight: 500;
+	font-size:16px;
+	color:#FE2712;
+	background-color: #151599;
+	
+}
+
+[name="SeeInvitationForSSW"]:hover, [name="ResetInvitationForSSW"]:hover, [name="SendInvitationForSSW"]:hover {
+	display: inline-block;
+	visibility:visible;
+	margin:auto;
+	height:20px; 
+	border-top:0px solid blue;
+	border-left:1px solid #DBE5FF;
+	border-bottom:1px solid #DBE5FF;
+	font-weight: 500;
+	font-size:16px;
+	color:#FE2712;
+	background-color: #151599;
+	box-shadow: 2px 2px 10px 2px white;
+}
+
+[name="SeeInvitationForSSW"] {
+	position: relative;
+	top:-140px;
+	right:142px;
+}
+
+[name="SendInvitationForSSW"] {
+	position: relative;
+	top:-165px;
+	right:30px;
+	
+}
+
+[name="ResetInvitationForSSW"] {
+	position: relative;
+	top:-190px;
+	left:172px;
+}
+
+
+
+#SendForm2 {
+	display:block;
+	visibility:visible;
+	z-index:1;
+	position:absolute;
+	top:120px;
+	margin:auto;
+	padding:4px;
+	width:650px;
+	height:330px;
+	color:#FE2712;
+	background-color:transparent;
+	font-family:Sofia;
+	
+	
+	margin:auto;
+	margin-top:4px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+}
+
+[name="SSI2"], #SendForm2F {
+	display:block;
+	visibility:visible;
+	z-index:2;
+	width:630px;
+	height:390px;	
+}
+
+#DoSend {
+	display:inline-block;
+	margin:auto;
+	width:auto;
+}
+
+#Do2Send {
+	display:block;
+	position:relative;
+	top:-40px;
+	margin:2px auto;
+	width:auto;
+}
+
+#Do3Send {
+	display:block;
+	position:absolute;
+	top:-50px;
+	margin:auto;
+	margin-top:50px;
+	width:510px;
+	text-indent:20px;
+	overflow:visible;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+}
+
+#SendForm2 p:nth-of-type(4) {
+	display:block;
+	margin:auto;
+	margin-top:10px;
+	text-align:center;
+	text-indent: 4px;
+	letter-spacing: 1px;
+	line-height: 0.8;
+	word-spacing: 2px;
+	white-space: normal;
+}
+
+#SendForm2 #SendForm2F #Do4Send {
+	width:430px;
+	color:#FE2712;
+	display:block;
+	margin: auto;
+	margin-top:100px;
+	text-align:center;
+}
+
+
+
+@media only screen and (min-width: 992px) { 
+
+#SendForm1 {
+	width:650px;
+	height:460px;
+	font-size:16px;	
+}
+
+[name="SSI1"],#SendForm1F {
+	width:630px;
+	height:440px;	
+	font-size:16px;	
+}
+
+.SendForm1Labels {
+	display: inline-block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	margin:2px auto;
+	width:160px;
+	height:22px;
+	cursor: default; 
+	position: relative;
+	top:10px;
+}
+
+.SendForm1Inputs {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	width:400px;
+}
+
+#SendForm1 #SendForm1F [name="nameResieverlabel"] {
+	width:150px;
+	position: absolute;
+	top:50px;
+	right:400px; 
+}
+
+#SendForm1 #SendForm1F [name="nameResiever"] {
+	position: absolute;
+	top:24px;
+	left:12px;
+}
+
+#SendForm1 #SendForm1F [name="mailResieverlabel"] {
+	width:160px;
+	position: absolute;
+	top:70px;
+	left:4px;
+}
+
+#SendForm1 #SendForm1F [name="mailResiever"] {
+	position: absolute;
+	top:96px;
+	left:12px;
+}
+
+#SendForm1 #SendForm1F [name="MesageResieverlabel"] {
+	width:100px;
+	position: absolute;
+	top:130px;
+	left:4px;
+	
+}
+
+#SendForm1 #SendForm1F #SendForm1Inputs1 {
+	width:10px;
+	position: absolute;
+	top:160px;
+	left:15px;
+}
+
+#SendForm1 #SendForm1F [name="mesage1Resieverlabel"] {
+	width:380px;
+	position: absolute;
+	top:156px;
+	left:8px;
+	
+}
+
+#SendForm1 #SendForm1F #SendForm2Inputs2 {
+	width:10px;
+	position: absolute;
+	top:180px;
+	left:15px;
+}
+
+#SendForm1 #SendForm1F [name="mesage2Resieverlabel"] {
+	width:450px;
+	position: absolute;
+	top:176px;
+	left:2px;
+}
+ 
+#SendForm1 #SendForm1F textarea, #SendForm1 #SendForm1F #MesageInvitationForSSW {
+	position: absolute;
+	top:200px;
+	left:10px;
+	width:400px;
+	height:120px;
+}
+
+[name="SeeInvitationForSSW"], [name="ResetInvitationForSSW"], [name="SendInvitationForSSW"] {
+	width:80px;
+	height:20px; 
+	font-size:16px;
+}
+
+[name="SeeInvitationForSSW"]:hover, [name="ResetInvitationForSSW"]:hover, [name="SendInvitationForSSW"]:hover {
+	font-size:16px;
+}
+
+[name="SeeInvitationForSSW"] {
+	width:120px;
+	position: absolute;
+	top:400px;
+	right:420px; 
+	left:auto;
+}
+
+[name="SendInvitationForSSW"] {
+	width:80px;
+	position: absolute;
+	top:440px;
+	right:320px; 
+	left:auto;
+}
+
+[name="ResetInvitationForSSW"] {
+	width:60px;
+	position: absolute;
+	top:390px;
+	left:450px; 
+}
+
+#SendForm2 {
+	position:absolute;
+	top:190px;
+	margin:auto;
+	width:640px;
+	height:370px;
+	border:1px solid #FE2712;
+}
+
+#SendForm2 [name="SSI2"], #SendForm2 #SendForm2F, #SendForm1 #SendForm2F {
+	position:absolute;
+	top:0px;
+	width:630px;
+	height:360px;
+	font-size:16px;		
+}
+
+#SendForm2 #SendForm2F #DoSend {
+	position:absolute;
+	top:20px;
+	left:120px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm2 #SendForm2F #Do2Send {
+	width:430px;
+	display:block;
+	position:absolute;
+	top:70px;
+	left:100px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm2 #SendForm2F #Do3Send {
+	display:block;
+	position:absolute;
+	top:100px;
+	left:30px;
+	margin:auto;
+	width:480px;
+	height:110px;
+	text-indent:30px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+}
+
+#SendForm2 #SendForm2F #Do4Send, #SendForm1 #SendForm1F #Do4Send {
+	width:430px;
+	color:#FE2712;
+	display:block;
+	margin: auto;
+	margin-top:100px;
+	text-align:center;
+}
+
+
+#SendForm1 #SendForm2F #DoSend {
+	position:absolute;
+	top:40px;
+	left:120px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm1 #SendForm2F #Do2Send {
+	width:430px;
+	display:block;
+	position:absolute;
+	top:90px;
+	left:100px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm1 #SendForm2F #Do3Send {
+	width:480px;
+	height:110px;
+	text-indent:50px;
+	text-align:justify;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+	display:block;
+	position:absolute;
+	top:90px;
+	margin-top:10px auto 30px auto;
+}
+
+#SendForm1 #SendForm2F #Do4Send {
+	width:430px;
+	color:#FE2712;
+	letter-spacing: 1px;
+	text-align:center;
+	display:block;
+	position:relative;
+	margin: auto;
+	margin-top:220px;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+#SendForm1 {
+	width:570px;
+	height:410px;  
+	font-size:16px;	
+}
+
+[name="SSI1"],#SendForm1F {
+	width:550px;
+	height:390px;
+	font-size:15px;	
+}
+
+.SendForm1Labels {
+	display: inline-block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	margin:2px auto;
+	width:160px;
+	height:22px;
+	cursor: default; 
+	position: relative;
+	top:10px;
+}
+
+.SendForm1Inputs {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	width:400px;
+}
+
+#SendForm1 #SendForm1F [name="nameResieverlabel"] {
+	width:150px;
+	position: absolute;
+	top:40px;
+	right:360px;
+	left:auto;
+}
+
+#SendForm1 #SendForm1F [name="nameResiever"] {
+	position: absolute;
+	top:24px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="mailResieverlabel"] {
+	width:150px;
+	position: absolute;
+	top:60px;
+	left:8px;
+}
+
+#SendForm1 #SendForm1F [name="mailResiever"] {
+	position: absolute;
+	top:86px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="MesageResieverlabel"] {
+	width:76px;
+	position: absolute;
+	top:120px;
+	left:17px;
+}
+
+#SendForm1 #SendForm1F #SendForm1Inputs1 {
+	width:10px;
+	position: absolute;
+	top:150px;
+	left:18px;
+}
+
+#SendForm1 #SendForm1F [name="mesage1Resieverlabel"] {
+	width:360px;
+	position: absolute;
+	top:146px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F #SendForm2Inputs2 {
+	width:10px;
+	position: absolute;
+	top:170px;
+	left:18px;
+}
+
+#SendForm1 #SendForm1F [name="mesage2Resieverlabel"] {
+	width:420px;
+	position: absolute;
+	top:166px;
+	left:9px;
+}
+
+#SendForm1 #SendForm1F textarea, #SendForm1 #SendForm1F #MesageInvitationForSSW {
+	width:400px;
+	height:100px;
+	position: absolute;
+	top:200px;
+	left:17px;
+}
+
+[name="SeeInvitationForSSW"], [name="ResetInvitationForSSW"], [name="SendInvitationForSSW"],
+[name="SeeInvitationForSSW"]:hover, [name="ResetInvitationForSSW"]:hover, [name="SendInvitationForSSW"]:hover {
+	font-size:14px;
+}
+
+[name="SeeInvitationForSSW"] {
+	width:110px;
+	position: absolute;
+	top:360px;
+	right:380px; 
+	left:auto;
+}
+
+[name="SendInvitationForSSW"] {
+	width:70px;
+	position: absolute;
+	top:360px;
+	right:300px; 
+	left:auto;
+}
+
+[name="ResetInvitationForSSW"] {
+	width:50px;
+	position: absolute;
+	top:360px;
+	left:424px; 
+}
+
+#SendForm2 {
+	position:absolute;
+	top:140px;
+	margin:auto;
+	width:560px;
+	height:330px;
+}
+
+#SendForm2 [name="SSI2"], #SendForm2 #SendForm2F, #SendForm1 #SendForm2F {
+	position:absolute;
+	top:0px;
+	width:550px;
+	height:320px;
+	font-size:14px;		
+}
+
+#SendForm2 #SendForm2F #DoSend {
+	position:absolute;
+	top:40px;
+	left:80px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm2 #SendForm2F #Do2Send {
+	width:400px;
+	display:block;
+	position:absolute;
+	top:60px;
+	left:70px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm2 #SendForm2F #Do3Send {
+	display:block;
+	position:absolute;
+	top:100px;
+	left:30px;
+	margin:auto;
+	width:480px;
+	height:110px;
+	text-indent:30px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+}
+
+#SendForm1 #SendForm2F #DoSend {
+	position:absolute;
+	top:40px;
+	left:120px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm1 #SendForm2F #Do2Send {
+	width:430px;
+	display:block;
+	position:absolute;
+	top:90px;
+	left:100px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm1 #SendForm2F #Do3Send {
+	width:480px;
+	height:110px;
+	text-indent:50px;
+	text-align:justify;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+	display:block;
+	position:absolute;
+	top:100px;
+	left:30px;
+	margin-top:190px auto 40px auto;
+}
+
+#SendForm1 #SendForm2F #Do4Send {
+	width:430px;
+	color:#FE2712;
+	letter-spacing: 1px;
+	text-align:center;
+	display:block;
+	position:relative;
+	margin: auto;
+	margin-top:220px;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+#SendForm1 {
+	width:570px;
+	height:410px;  
+	font-size:15px;
+}
+
+[name="SSI1"],#SendForm1F {
+	width:550px;
+	height:390px;
+	font-size:15px;	
+}
+
+.SendForm1Labels {
+	display: inline-block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	margin:2px auto;
+	width:160px;
+	height:22px;
+	cursor: default; 
+	position: relative;
+	top:10px;
+}
+
+.SendForm1Inputs {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	width:400px;
+}
+
+#SendForm1 #SendForm1F [name="nameResieverlabel"] {
+	width:140px;
+	position: absolute;
+	top:40px;
+	right:370px;
+}
+
+#SendForm1 #SendForm1F [name="nameResiever"] {
+	position: absolute;
+	top:24px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F [name="mailResieverlabel"] {
+	width:150px;
+	position: absolute;
+	top:60px;
+	left:2px;
+}
+
+#SendForm1 #SendForm1F [name="mailResiever"] {
+	position: absolute;
+	top:86px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F [name="MesageResieverlabel"] {
+	width:76px;
+	position: absolute;
+	top:120px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F #SendForm1Inputs1 {
+	width:10px;
+	position: absolute;
+	top:150px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="mesage1Resieverlabel"] {
+	width:340px;
+	position: absolute;
+	top:143px;
+	left:17px;
+	
+}
+
+#SendForm1 #SendForm1F #SendForm2Inputs2 {
+	width:10px;
+	position: absolute;
+	top:170px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="mesage2Resieverlabel"] {
+	width:420px;
+	position: absolute;
+	top:164px;
+	left:6px;
+}
+
+#SendForm1 #SendForm1F textarea, #SendForm1 #SendForm1F #MesageInvitationForSSW {
+	width:400px;
+	height:100px;
+	position: absolute;
+	top:200px;
+	left:10px;
+}
+
+[name="SeeInvitationForSSW"], [name="ResetInvitationForSSW"], [name="SendInvitationForSSW"] {
+	width:80px;
+	height:20px; 
+	font-size:14px;
+	position: absolute;
+	top:360px;
+}
+
+[name="SeeInvitationForSSW"]:hover, [name="ResetInvitationForSSW"]:hover, [name="SendInvitationForSSW"]:hover {
+	font-size:14px;
+}
+
+[name="SeeInvitationForSSW"] {
+	width:110px;
+	position: absolute;
+	top:360px;
+	right:390px; 
+	left:auto;
+}
+
+[name="SendInvitationForSSW"] {
+	width:70px;
+	position: absolute;
+	top:360px;
+	right:310px; 
+	left:auto;
+}
+
+[name="ResetInvitationForSSW"] {
+	width:50px;
+	position: absolute;
+	top:360px;
+	left:420px; 
+}
+
+#SendForm2 {
+	position:relative;
+	top:-440px;
+	width:560px;
+	height:330px;	
+}
+
+#SendForm2 [name="SSI2"], #SendForm2 #SendForm2F, #SendForm1 #SendForm2F {
+	position:absolute;
+	top:0px;
+	width:550px;
+	height:320px;
+	font-size:14px;		
+}
+
+#SendForm2 #SendForm2F #DoSend, #SendForm1 #SendForm2F #DoSend  {
+	position:absolute;
+	top:40px;
+	left:80px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm2 #SendForm2F #Do2Send, #SendForm1 #SendForm2F #Do2Send  {
+	width:400px;
+	display:block;
+	position:absolute;
+	top:90px;
+	left:70px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm2 #SendForm2F #Do3Send, #SendForm1 #SendForm2F #Do3Send  {
+	display:block;
+	position:absolute;
+	top:100px;
+	left:30px;
+	margin:auto;
+	width:480px;
+	height:110px;
+	text-indent:30px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+}
+
+#SendForm1 #SendForm2F #DoSend  {
+	position:absolute;
+	top:20px;
+	left:80px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm1 #SendForm2F #Do2Send  {
+	width:400px;
+	display:block;
+	position:absolute;
+	top:70px;
+	left:70px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm1 #SendForm2F #Do3Send  {
+	width:480px;
+	height:110px;
+	text-indent:50px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+	display:block;
+	margin-top:150px auto 30px auto;
+}
+
+
+
+
+
+ 
+}
+
+@media only screen and (max-width: 600px) { 
+
+#SendForm1 {
+	width:450px;
+	height:auto;
+	height:380px; 
+	max-height:420px;
+	font-size:12px;
+}
+
+[name="SSI1"],#SendForm1F {
+	width:430px;
+	height:auto;
+	height:360px;
+	font-size:14px;	 
+}
+
+.SendForm1Labels {
+	display: inline-block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	margin:2px auto;
+	width:160px;
+	height:22px;
+	cursor: default; 
+	position: relative;
+	top:10px;
+}
+
+.SendForm1Inputs {
+	display: block;
+	visibility:visible;
+	position: relative;
+	margin:auto;
+	width:200px;
+}
+
+#SendForm1 #SendForm1F [name="nameResieverlabel"] {
+	width:130px;
+	position: absolute;
+	top:30px;
+	right:290px;
+}
+
+#SendForm1 #SendForm1F [name="nameResiever"] {
+	position: absolute;
+	top:24px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F [name="mailResieverlabel"] {
+	width:140px;
+	position: absolute;
+	top:54px;
+	left:2px;
+}
+
+#SendForm1 #SendForm1F [name="mailResiever"] {
+	position: absolute;
+	top:76px;
+	left:10px;
+}
+
+#SendForm1 #SendForm1F [name="MesageResieverlabel"] {
+	width:86px;
+	position: absolute;
+	top:102px;
+	left:6px;
+}
+
+#SendForm1 #SendForm1F #SendForm1Inputs1 {
+	width:10px;
+	position: absolute;
+	top:130px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="mesage1Resieverlabel"] {
+	width:340px;
+	position: absolute;
+	top:125px;
+	left:8px;
+	
+}
+
+#SendForm1 #SendForm1F #SendForm2Inputs2 {
+	width:10px;
+	position: absolute;
+	top:150px;
+	left:16px;
+}
+
+#SendForm1 #SendForm1F [name="mesage2Resieverlabel"] {
+	width:400px;
+	position: absolute;
+	top:145px;
+	left:5px;
+}
+ 
+#SendForm1 #SendForm1F textarea, #SendForm1 #SendForm1F #MesageInvitationForSSW {
+	position: absolute;
+	top:180px;
+	left:6px;
+	width:370px;
+	height:100px;
+	overflow:auto;
+}
+
+[name="SeeInvitationForSSW"], [name="ResetInvitationForSSW"], [name="SendInvitationForSSW"] {
+	width:80px;
+	height:20px; 
+	font-size:13px;
+	display:inline-block;
+	margin:auto;
+	position: absolute;
+	top:320px;
+}
+
+[name="SeeInvitationForSSW"]:hover, [name="ResetInvitationForSSW"]:hover, [name="SendInvitationForSSW"]:hover {
+	font-size:13px;
+}
+
+[name="SeeInvitationForSSW"] {
+	width:100px;
+	position: absolute;
+	top:320px;
+	right:312px;
+}
+
+[name="SendInvitationForSSW"] {
+	width:64px;
+	position: absolute;
+	top:320px;
+	right:240px; 
+}
+
+[name="ResetInvitationForSSW"] {
+	width:48px;
+	position: absolute;
+	top:320px;
+	left:354px; 
+}
+
+#SendForm2 {
+	position:relative;
+	top:-400px;
+	width:440px;
+	height:310px;  
+}
+
+#SendForm2 [name="SSI2"], #SendForm2 #SendForm2F, #SendForm1 #SendForm2F  {
+	position:absolute;
+	top:0px;
+	width:430px;
+	height:300px;
+	font-size:13px;	
+}
+
+#SendForm2 #SendForm2F #DoSend, #SendForm1 #SendForm2F #DoSend {
+	position:absolute;
+	top:20px;
+	left:30px;
+	display:inline-block;
+	margin:auto;
+	width:360px;
+}
+
+#SendForm2 #SendForm2F #Do2Send, #SendForm1 #SendForm2F #Do2Send {
+	width:360px;
+	display:block;
+	position:absolute;
+	top:70px;
+	left:30px;
+	margin:2px auto;
+	text-align:center;
+}
+
+#SendForm2 #SendForm2F #Do3Send,#SendForm1 #SendForm2F #Do3Send {
+	display:block;
+	position:absolute;
+	top:100px;
+	left:20px;
+	margin:auto;
+	width:380px;
+	height:100px;
+	text-indent:30px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+}
+
+#SendForm1 #SendForm2F #Do3Send {
+	width:380px;
+	height:100px;
+	text-indent:50px;
+	overflow:auto;
+	overflow-wrap: break-word;
+	text-overflow:string;
+	word-break: keep-all;
+	display:block;
+	margin:18px auto 30px auto;
+}
+
+#SendForm1 #SendForm2F #Do4Send {
+	width:430px;
+	color:#FE2712;
+	letter-spacing: 2px;
+	text-align:center;
+	display:block;
+	position:relative;
+	margin: auto;
+	margin-top:190px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+

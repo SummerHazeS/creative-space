@@ -1,0 +1,430 @@
+
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #FFF #191970;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  float:none;
+}
+
+body {
+	color:#FFF;
+	background-color:#191970; 
+	text-align: center; 
+	text-align-last: center;
+	vertical-align: middle;
+	font-size:16px;
+	font-family:Sofia, Ariel, sans-serif;
+	direction: ltr;
+	unicode-bidi: normal;
+	text-indent: 0px;
+	text-shadow: none;
+	text-decoration-line: none;
+	text-decoration-color:#FFF;
+	text-decoration-style: solid;
+	text-transform: none;
+	letter-spacing: normal;
+	line-height: normal;
+	white-space: normal;
+	word-spacing: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.WhiteSnow {
+	color: #FE2712;
+	background-color: #FFF;
+	box-shadow: 2px 2px 8px 8px #FFF, -2px -2px 8px 8px #FFF;
+}
+
+.WhiteSnow:hover {
+	color: #609CE1;
+	background-color: #FFF;
+	box-shadow: 2px 2px 8px 10px #FFF, -2px -2px 8px 10px #FFF;
+}
+
+.WhiteSnow2 {
+	color: #FE2712;
+	background-color: white;
+	box-shadow: 1px 1px 4px 4px white, -1px -1px 4px 4px white;
+}
+
+.nightBluePr {
+	font-weight: 800;
+	color: #DBE5FF;
+	background-color:#012998;
+	border:2px solid white;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	box-shadow: 1px 1px 2px 2px  white;
+}
+
+.nightBluePr:hover {
+	font-weight: 900;
+	border:3px solid white;
+	box-shadow: 2px 2px 4px 4px  white;
+}
+
+.nightGhost {
+	font-weight: 700;
+	color: #DBE5FF;
+	background-color:transparent;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:25px;
+	border-top-left-radius:5px;
+}
+
+.nightBlue {
+	color: #DBE5FF;
+	background-color: #012998;
+	border:1px hidden white;
+	border-bottom:2px solid #DBE5FF;
+	border-left:2px solid #DBE5FF;
+}
+
+.nightBlue:hover {
+	color: white;
+	background-color: #012998;
+	border:1px hidden black;
+	border-top:1px solid white;
+	border-right:1px solid white;
+	box-shadow: 2px 2px 4px 2px  white;
+}
+
+[name="Pozdrav"] {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	text-align: center;
+	color:#DBE5FF;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+[name="Pozdrav"]:hover, [name="Pozdrav"] p:hover, [name="Pozdrav"] p.nightGhost:hover {
+	color: white;
+	background-color: transparent;
+}
+
+#menu {
+	width:90%;
+	height:15px;
+	font-size:16px;
+	text-align: justify;
+	background-color: transparent;
+	padding:2px 1px;
+	display:block;
+	z-index:2;
+	position: absolute;
+	right:1px;
+	top:80px;
+	margin:2px;
+	overflow:visible;
+}
+
+.main {
+	height: auto;
+	margin:auto;
+	margin-top:200px;
+}
+
+.divTablesData, .divTablesData, .divTablesInfinitive, .divChangingData, .main div   {
+	margin:auto;
+}
+
+@media only screen and (min-width: 992px) { 
+
+#menu {
+	width:90%;
+	height:15px;
+	font-size:16px;
+	text-align: justify;
+	background-color: transparent;
+	padding:2px 1px;
+	display:block;
+	z-index:2;
+	position: absolute;
+	right:1px;
+	top:80px;
+	margin:2px;
+	overflow:visible;
+}
+
+.main {
+	height: auto;
+	margin:auto;
+	margin-top:150px;
+}
+
+.main div {
+	width: 90%;
+	font-size: 16px;
+	vertical-align:middle;
+	display:block;
+	z-index:1;
+	overflow: visible;
+}
+
+.divTablesData, .divTablesData, .divTablesInfinitive, .divChangingData, .main div   {
+	margin:auto;
+}
+
+.divShowData {
+	width: auto;
+	height: 270px;
+	text-align: center;
+	background-color: transparent;
+	padding:2px;
+	margin:auto;
+}
+
+.divTablesData {
+	width: auto;
+	height: 200px; 
+	text-align: justify;
+	color: black; 
+	background-color: transparent;
+	padding:4px;
+	margin-top:10px;
+	visibility:visible; 
+}
+
+.divTablesInfinitive {
+	width: auto;
+	min-height:200px;
+	height: auto; 
+	color: black;
+	background-color: transparent;
+	padding:2px;
+}
+
+.divChangingData {
+	height: 190px; 
+	text-align:center;
+	background-color: transparent;
+	padding:4px;
+	margin:30px auto;
+}
+
+[name="divYourSecretSanta"] {
+	height: 300px;
+	margin:auto;
+	margin-top:20px;
+}
+
+[name="divWSSChoiceForm2"] {
+	height: 400px; 
+	margin:auto;
+	visibility:visible;
+}
+
+[name="divWSSSelectedWishesForm"] {
+	height: 260px; 
+	
+}
+
+[name="divWSSChangeNameAndPassForm"] {
+	height: 270px; 
+	text-align: center;
+}
+
+
+ 
+}
+
+@media only screen and (max-width: 992px) { 
+
+#menu {
+	width:790px;
+	height:20px;
+	font-size:14px;
+	text-align: justify;
+	background-color: transparent;
+	padding:1px;
+	margin:1px;
+	display:block;
+	z-index:2;
+	position: absolute;
+	top:60px;
+	overflow:visible;
+	margin:20px auto;
+	margin-right:1px;
+}
+
+.main {
+	height: auto;
+	margin:auto;
+	margin-top:130px;
+}
+
+.main div {
+	font-size: 16px;
+	vertical-align:middle;
+	display:block;
+	z-index:1;
+	overflow: visible;
+}
+
+.divTablesData, .divTablesData, .divTablesInfinitive, .divChangingData, div.main div {
+	margin:auto;
+	margin-top:190px;
+}
+
+div.divShowData {
+	height: 290px;
+}
+
+div.divTablesData {
+	width: auto;
+	height: 200px;
+}
+
+div.divTablesInfinitive {
+	width: auto;
+	height: auto; 
+}
+
+div.divChangingData {
+	font-size: 14px;
+	margin-top:100px;
+}
+
+[name="divWSSChoiceForm2"] {
+	height: 400px; 
+	text-align: center;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+* {
+	padding:1px;
+}
+
+#menu {
+	width:220px;
+	height:210px;
+	font-size:14px;
+	text-align: justify;
+	background-color: transparent;
+	padding:1px;
+	margin:1px;
+	display:block;
+	z-index:2;
+	position:absolute;
+	right:1px;
+	top:40px;
+	overflow:visible;
+}
+
+.main {
+	height: 300px;
+	height: auto;
+	margin:auto;
+	margin-top:150px;
+}
+
+.divTablesData, .divTablesData, .divTablesInfinitive, .divChangingData, .main div   {
+	margin:auto;
+}
+
+.divShowData, div.divShowData {
+	width: 90%;
+	height: 260px;
+	font-size: 16px;
+}
+
+.divTablesData {
+	font-size: 14px;
+}
+
+.divTablesInfinitive {
+	width: 100%;
+	min-height:200px;
+	height: auto; 
+	font-size: 14px;
+}
+
+.main div.divChangingData {
+	margin:10px auto;
+}
+
+[name="divWSSChoiceForm"] {
+	margin:auto;
+	margin-top:180px;
+}
+
+
+[name="divWSSConfirmForm2"] {
+	margin:auto;
+	margin-top:180px;
+}
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+body {
+	font-size:12px;
+}
+
+* {
+	padding:1px;
+}
+
+[name="Pozdrav"] {	
+	width:100%;
+	height:22px;
+	font-size:16px;
+	text-align: center;
+}
+
+#menu  {
+	display:none;
+	z-index:2; 
+}
+
+.main {
+	height: 260px;
+	height: auto;
+	margin:40px auto;
+}
+
+.divTablesData, .divTablesData, .divTablesInfinitive, .divChangingData, .main div   {
+	font-size: 12px;
+	margin:auto;
+}
+
+.main div.divChangingData {
+	margin:auto;
+	margin-top:60px;
+}
+
+div.divTablesData {
+	margin:auto;
+	margin-top:50px;
+}
+
+
+}
+

@@ -1,0 +1,895 @@
+
+
+/*  */
+
+p {
+	width:auto;
+	height:18px;
+	font-size: 16px;
+	display:block;
+	z-index:1;
+	overflow: visible;	
+}
+
+[name="Pozdrav"] p {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	font-weight: 600;
+	text-align: center;
+	color:#DBE5FF;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+[name="divYourSecretSanta2"] p {
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	margin:30px auto;
+	visibility:visible;
+}
+
+[name="divYourSecretSanta"] p:hover, #AddressF:hover, #AddressW:hover {
+	color: #609CE1;
+	background-color: white;
+	overflow: visible;	
+	box-shadow: 2px 2px 8px 10px white, -2px -2px 8px 10px white;
+}
+
+[name="divWSSChoiceForm2"] p {
+	width:90%;
+	font-size: 16px;
+	margin:20px auto;
+}
+
+[name="divWSSNoChoice"] p {
+	width:90%;
+	margin:auto;
+	margin-top:20px;
+}
+
+[name="divWSSConfirmSelectedWishes"] p, [name="divWSSConfirmForm"] p, [name="divWSSConfirmForm2"] p,
+[name="divWSSChoiceForm"] p, [name="divWSSSecretSantaWishesForm"] p, [name="divWSSSelectedWishesForm"] p,
+[name="divWSSAllWishesForm"] p  {
+	margin:auto;
+	margin-top:20px;
+}
+
+[name="divWSSAddWishForm"] p,
+[name="divWSSChangeWishForm"] p,
+[name="divWSSChangeAdresForm"] p,
+[name="divWSSChangeNicknameForm"] p,
+[name="divWSSChangePasswordForm"] p {
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+
+[name="divWSSDelPersonDataForm"] p {
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:10px;
+}
+
+.divChangingData p.nightBluePr, [name="divExit"] p {
+	width:320px;
+	height:30px;
+	margin:auto;
+	margin-top:80px;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(2), [name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(3),
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(4), [name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(5) { 
+	visibility:hidden;
+}
+
+@keyframes Appearance {
+	0% {display:block; width:2px; height:2px;position:absolute;right:2px;}
+	10% {display:block; width:2px; height:2px;position:absolute;right:100px;}
+  100% {display:block; width:100px; height:100px;position:absolute;right:500px;}	
+}
+
+
+@media only screen and (min-width: 992px) { 
+
+p.nightBluePr, p.nightBlue, p.WhiteSnow  {
+	width:300px;
+	height:24px;
+	font-size: 16px;
+}
+
+[name="Pozdrav"] p {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	text-align: center;
+	color:white;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+[name="divYourSecretSanta"] p {
+	width: 300px; 
+	height: 28px;
+	font-size: 26px;
+	margin:50px auto;
+	display:block;
+	z-index:1;
+	visibility:visible;
+}
+
+#AddressF {
+	width: 430px; 
+	height: auto;
+	font-size: 18px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;	
+}
+
+#AddressW {
+	width: 590px; 
+	height: 28px;
+	font-size: 16px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;
+}
+
+[name="divYourSecretSanta2"] p.nightBluePr {
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	margin:30px auto;
+}
+
+#Ay {
+	width: 250px;
+	height: 26px;
+	font-size: 18px;
+	margin:auto;
+	margin-top:-180px;
+}
+
+[name="divWSSChoiceForm2"] p {
+	font-size: 16px;
+	margin:auto;
+	margin-top:10px;
+}
+
+[name="divWSSNoChoice"] p {
+	font-size: 16px;
+	margin:30px auto 10px auto;
+}
+
+[name="divWSSNoChoice"] p:nth-of-type(3) {
+	font-size: 16px;
+	margin:10px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] p {
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	position:fixed;
+	top:140px;
+}
+
+[name="divWSSConfirmForm"] p, [name="divWSSConfirmForm2"] p {
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:-120px;
+}
+
+[name="divWSSConfirmForm2"] p {
+	margin:auto;
+	margin-top:-120px;
+}
+
+[name="divWSSChoiceForm"] p {
+	height:24px;
+	font-size: 16px;	
+	margin:auto;
+	margin-top:30px;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:first-of-type {
+	width:400px;
+	height:27px;
+	margin:20px auto;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(2) { 
+	width:470px;
+	height:auto;
+	height:27px;
+	margin:auto;
+	margin-top:6px;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(3) { 
+	width:500px;
+	height:54px; 
+	border-bottom-right-radius:20px;
+	margin:auto;
+	margin-top:8px;	
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(4) {
+	width:430px;
+	height:54px; 
+	border-bottom-right-radius:20px; 
+	margin:auto;
+	margin-top:8px;
+}
+
+[name="divWSSRemainingWishesForm"] p, #ZeroZapisa, .ZeroZapisa, [name="divWSSSecretSantaWishesForm"] p, 
+[name="divWSSSelectedWishesForm"] p, [name="divWSSAllWishesForm"] p, .Zapisi  {
+	width:290px;
+	height:28px;
+	font-size: 16px;
+	margin:30px auto;
+}
+
+[name="divWSSRemainingWishesForm"] p {
+	width:230px;
+}
+
+[name="divWSSSecretSantaWishesForm"] p {
+	width:270px;
+}
+
+[name="divWSSSelectedWishesForm"] p {
+	width:220px;
+}
+
+.Zapisi {
+	width: 60%;
+	height: 24px;
+	font-size: 16px;
+	text-align:center;
+	margin:60px auto;
+}
+
+.ZeroZapisa {
+	margin:50px auto;
+}
+
+[name="divWSSAddWishForm"] p,
+[name="divWSSChangeWishForm"] p,
+[name="divWSSChangeAdresForm"] p,
+[name="divWSSChangeNicknameForm"] p,
+[name="divWSSChangePasswordForm"] p {
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] p {
+	margin:auto;
+	margin-top:10px;
+}
+
+[name="divWSSDelPersonDataForm"] p {
+	width: 100%;
+	height:auto;
+	text-align:justify;
+}
+
+
+[name="divChangingData"] p.nightBluePr {
+	width:100px;
+	height:100px;
+	margin:auto;
+	margin-top:80px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+p {
+	height:24px;
+	font-size: 16px;
+}
+
+[name="Pozdrav"] p {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	text-align: center;
+	color:white;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+[name="divYourSecretSanta"] p {
+	width: 250px; 
+	height: 26px;
+	font-size: 24px;
+	margin:50px auto;
+	visibility:visible;
+}
+
+#AddressF {
+	width: 50%;
+	height: auto;
+	font-size: 18px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;	
+}
+
+#AddressW {
+	width: 580px; 
+	height: 28px;
+	font-size: 16px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;
+}
+
+[name="divYourSecretSanta2"] p {
+	width: 340px;
+	font-size: 16px;
+	margin:30px auto;
+}
+
+#Ay {
+	width: 250px;
+	height: 26px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:-180px;
+}
+
+[name="divWSSChoiceForm2"] p {
+	font-size: 15px;
+	margin:auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] p {
+	width:210px;
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	position:fixed;
+	top:160px;
+	left:40%;
+}
+
+[name="divWSSConfirmForm"] p, [name="divWSSConfirmForm2"] p {
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:-130px;
+}
+
+[name="divWSSConfirmForm2"] p {
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:-130px;
+}
+
+[name="divWSSChoiceForm"] p {
+	height:24px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:10px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:first-of-type {
+	width:400px;
+	height:28px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:10px;
+	/* margin-left:100px;*/	
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(2) {
+	width:470px;
+	height:auto;
+	height:26px;
+	margin:auto;
+	margin-top:6px;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(3) {
+	width:500px;
+	max-width:610px;
+	height:54px; 
+	border-bottom-right-radius:20px;
+	margin:auto;
+	margin-top:8px;
+}
+
+[name="divWSSRemainingWishesForm"] p, #ZeroZapisa, .ZeroZapisa, [name="divWSSSecretSantaWishesForm"] p,
+[name="divWSSSelectedWishesForm"] p, [name="divWSSAllWishesForm"] p, .Zapisi   {
+	height:24px;
+	font-size: 16px;
+	margin:10px auto;
+	border:1px soli red;
+}
+
+[name="divWSSRemainingWishesForm"] p {
+	width:230px;
+	height: 30px;
+}
+
+[name="divWSSSecretSantaWishesForm"] p {
+	width:270px;
+	height: 28px;
+}
+
+[name="divWSSSelectedWishesForm"] p {
+	width:210px;
+	height: 28px;
+}
+
+.ZeroZapisa, .Zapisi {
+	margin:50px auto;
+}
+
+[name="divWSSAddWishForm"] p,
+[name="divWSSChangeWishForm"] p,
+[name="divWSSChangeAdresForm"] p,
+[name="divWSSChangeNicknameForm"] p,
+[name="divWSSChangePasswordForm"] p {
+	font-weight:500;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] p, [name="divWSSChangeNameAndPassForm"] p,
+[name="divWSSSecretSantaWishesForm"] p {
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+[name="divWSSDelPersonDataForm"] p {
+	width: 90%;
+	height:auto;
+	margin:auto;
+	margin-top:100px;
+	text-align:justify;
+}
+
+[name="divChangingData"] p.nightBluePr {
+	width:100px;
+	height:100px;
+	text-align:center;
+	margin:80px auto;
+	margin-bottom:10px;
+}
+
+div.divChangingData p.nightBluePr {
+	width:320px;
+	height:30px;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+p {
+	height:20px;
+	font-size: 14px;
+}
+
+[name="Pozdrav"] p {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	text-align: center;
+	color:white;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+[name="divYourSecretSanta"] p {
+	width: 250px; 
+	height: 26px;
+	font-size: 24px;
+	margin:20px auto;
+}
+
+#AddressF {
+	width: 80%; 
+	height: auto;
+	font-size: 16px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;	
+}
+
+#AddressW {
+	width: 80%; 
+	height: 30px;
+	font-size: 14px;
+	margin:30px auto;
+	visibility:visible;
+	color: #FE2712;
+	background-color: white;
+	box-shadow: 2px 2px 8px 8px white, -2px -2px 8px 8px white;
+	overflow: visible;
+	
+}
+
+[name="divYourSecretSanta2"] p {
+	visibility:visible;
+	position:relative;
+	left:0px;
+	top:0px;
+	margin-top:30px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:auto;
+	font-size: 15px;
+	width: 340px; 
+}
+
+#Ay {
+	width: 250px;
+	height: 26px;
+	font-size: 16px;
+	margin:auto;
+	margin-top:-180px;
+}
+
+
+[name="divWSSChoiceForm2"] p {
+	font-size: 14px;
+}
+
+[name="divWSSNoChoice"] p {
+	width:90%;
+	font-size: 14px;
+	margin:30px auto auto auto;	
+}
+
+[name="divWSSConfirmSelectedWishes"] p{
+	width:180px;
+	height:20px;
+	font-size: 14px;
+	margin:auto;
+	position:fixed;
+	top:180px;
+}
+
+[name="divWSSConfirmForm"] p, [name="divWSSConfirmForm2"] p {
+	width:80%;
+	height:20px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:-120px;
+}
+
+[name="divWSSConfirmForm2"] p {
+	width:80%;
+	height:20px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:-140px;
+}
+
+[name="divWSSChoiceForm"] p {
+	width:80%; 
+	height:20px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:20px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:first-of-type {
+	width:350px;
+	height:25px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:20px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(2) {
+	width:430px;
+	height:auto;
+	height:25px;
+	margin:auto;
+	margin-top:6px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(3) {
+	min-width:430px;
+	width:430px;
+	height:44px; 
+	border-bottom-right-radius:20px; 
+	margin:auto;
+	margin-top:8px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(4) {
+	width:370px;
+	height:44px; 
+	border-bottom-right-radius:20px; 
+	margin:auto;
+	margin-top:8px; 
+}
+
+[name="divWSSRemainingWishesForm"] p, #ZeroZapisa, .ZeroZapisa, [name="divWSSSecretSantaWishesForm"] p,
+[name="divWSSSelectedWishesForm"] p, [name="divWSSAllWishesForm"] p, .Zapisi   {
+	width:230px; 
+	height:20px;
+	font-size: 14px;
+	margin:10px auto;
+}
+
+[name="divWSSRemainingWishesForm"] p {
+	width:210px;
+	height: 28px;
+}
+
+[name="divWSSSecretSantaWishesForm"] p {
+	width:260px;
+	height: 28px;
+}
+
+[name="divWSSSelectedWishesForm"] p {
+	width:190px;
+	height:26px;
+	font-size: 13px;
+}
+
+.ZeroZapisa, .Zapisi {
+	margin:60px auto;
+}
+
+[name="divWSSAddWishForm"] p,
+[name="divWSSChangeWishForm"] p,
+[name="divWSSChangeAdresForm"] p,
+[name="divWSSChangeNicknameForm"] p,
+[name="divWSSChangePasswordForm"] p {
+	font-weight:300;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] p,[name="divWSSDelPersonDataForm"] p {
+	margin:10px auto;
+}
+
+[name="divChangingData"] p.nightBluePr {
+	width:80px;
+	height:180px;
+	text-align:center;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:10px;
+	
+}
+
+[name="divWSSDelPersonDataForm"] p {
+	margin:auto;
+	margin-top:100px;
+	text-align:justify;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+body {
+	font-size:12px;
+}
+
+p {
+	height:18px;
+	font-size: 13px;
+}
+
+[name="Pozdrav"] p {	
+	width:400px;
+	height:22px;
+	font-size:16px;
+	font-weight: 500;
+	text-align: center;
+	color:white;
+	background-color: transparent;
+	box-shadow: -8px -8px -10px -8px white;
+	padding:1px;
+	margin:2px auto 2px auto;
+	display:block;
+	z-index:1;
+}
+
+#ZeroZapisa, .ZeroZapisa {
+	margin:auto;
+}
+
+[name="divYourSecretSanta"] p {
+	width: 200px; 
+	height: 22px;
+	font-size: 20px;
+	margin:20px auto;
+	box-shadow: 1px 1px 4px 4px white, -1px -1px 4px 4px white;
+}
+
+#AddressF {
+	width: 80%; 
+	height: auto;
+	font-size: 16px;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;	
+}
+
+#AddressW {
+	width: 80%; 
+	height: auto;
+	font-size: 14px;
+	text-align:center;
+	margin:30px auto;
+	visibility:visible;
+	overflow: visible;
+}
+
+[name="divYourSecretSanta2"] p {
+	width: 300px; 
+	height: 24px;
+	font-size: 14px;
+	margin:20px auto;
+}
+
+#Ay {
+	width: 200px; 
+	height: 24px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:-180px;
+}
+
+[name="divWSSChoiceForm2"] p {
+	font-size: 13px;
+	margin:20px auto;
+}
+
+[name="divWSSNoChoice"] p {
+	font-size: 13px;
+	margin:30px auto auto auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] p {
+	width:180px;
+	height:18px;
+	font-size: 13px;
+	margin:auto;
+	margin-top:-70px;
+}
+
+[name="divWSSConfirmForm"] p, [name="divWSSConfirmForm2"] p {
+	width:80%;
+	height:18px;
+	font-size: 13px;
+	margin:auto;
+	margin-top:-110px;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:first-of-type {
+	width:330px;
+	height:25px;
+	font-size: 13px;
+	text-align:center;
+	margin:30px auto 10px auto;
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(2) {  
+	width:410px;
+	height:auto;
+	height:25px;
+	margin:auto;
+	margin-top:6px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(3) { 
+	width:410px;
+	height:44px; 
+	border-bottom-right-radius:20px; 
+	margin:auto;
+	margin-top:8px; 
+}
+
+[name="divWSSChoiceForm"] p.nightBluePr:nth-of-type(4) { 
+	width:350px;
+	height:44px; 
+	border-bottom-right-radius:20px; 
+	margin:auto;
+	margin-top:8px; 
+}
+
+[name="divWSSRemainingWishesForm"] p, [name="divWSSSecretSantaWishesForm"] p, [name="divWSSSelectedWishesForm"] p,
+[name="divWSSAllWishesForm"] p, .Zapisi  {
+	width:320px;
+	height:18px;
+	font-size: 13px;
+	margin:10px auto;
+}
+
+[name="divWSSSelectedWishesForm"] p {
+	width:170px;
+	height:25px;
+	font-size: 13px;
+}
+
+[name="divWSSSecretSantaWishesForm"] p {
+	width:230px;
+	height:25px;
+}
+
+[name="divWSSRemainingWishesForm"] p {
+	width:170px;
+	height:25px;
+	font-size: 13px;
+}
+
+.main [name="divWSSRemainingWishesForm"] p.nightBluePr:first-of-type {
+	width:190px;
+	height:25px;
+	font-size: 13px;
+	margin:auto;
+	margin-top:10px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] p, [name="divWSSDelPersonDataForm"] p {
+	margin:10px auto;	
+}
+
+[name="divWSSDelPersonDataForm"] p {
+	height:auto;
+}
+
+[name="divChangingData"] p.nightBluePr {
+	width:80px;
+	height:180px;
+	text-align:center;
+	margin:auto;
+	margin-top:-80px;
+}
+
+
+
+
+
+
+}

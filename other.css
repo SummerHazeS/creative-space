@@ -1,0 +1,203 @@
+
+
+#OpenMenu {
+	display:none;
+	position:fixed;
+	right:10px;
+	top:40px;
+	margin:1px;
+	padding:1px;
+	height:20px;
+	font-size:14px;
+	width:60px;
+	overflow:visible;
+	text-align: justify;
+	z-index:2;
+}
+
+
+#WSSAddress, [name="divYourSecretSanta"] [name="WSSAddressForm"] [name="WSSAddress"] {
+	width: auto; 
+	height: auto;
+	font-size: 16px;
+	color: #000000;
+	background-color: white;
+	margin:auto;
+	display:block;
+	z-index:1;
+	visibility:visible;
+	overflow: visible;
+}
+
+#WishesChoiceHidden {
+	width: 30px; 
+	height: 20px;
+	font-size: 16px;
+	margin:auto;
+	display:block;
+	z-index:1;
+	visibility:hidden;
+}
+
+#imgshow {
+	color:white;
+	display:none;
+	z-index:3;
+	visibility:hidden;
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="AddWishSecond"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="NewWish"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="NewAdres"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="Newname"], 
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="Newpass"],
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newname"],
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newpass"] { 
+	width: 140px; 
+	height: 18px;
+	font-size: 16px;
+	margin:4px auto;
+}
+
+
+@media only screen and (min-width: 992px) { 
+
+
+[name="divYourSecretSanta"] [name="WSSAddressForm"] [name="WSSAddress"] {
+	width: 250px;
+	font-size: 14px;
+	margin:2px auto;
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="AddWishSecond"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="NewWish"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="NewAdres"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="Newname"], 
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="Newpass"] { 
+	height: 18px;
+	font-size: 16px;
+	margin:4px auto;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newname"] {
+	height: 20px;
+	margin:4px 10px 4px 22px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newpass"] {
+	height: 20px;
+	margin:4px 10px 4px 22px;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+
+[name="divYourSecretSanta"] [name="WSSAddressForm"] [name="WSSAddress"] {
+	width: 200px;
+	font-size: 14px;
+	margin:2px auto;
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="AddWishSecond"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="NewWish"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="NewAdres"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="Newname"], 
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="Newpass"] { 
+	height: 18px;
+	font-size: 14px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newname"] {
+	height: 20px;
+	margin:4px 10px 4px 22px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newpass"] {
+	height: 20px;
+	margin:4px 10px 4px 22px;
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+[name="divYourSecretSanta"] [name="WSSAddressForm"] [name="WSSAddress"] {
+	width: 200px;
+	font-size: 14px;
+	margin:2px auto;
+}
+
+#WishesChoiceHidden {
+	font-size: 14px;
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="AddWishSecond"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="NewWish"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="NewAdres"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="Newname"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="Newpass"] { 
+	height: 18px;
+	font-size: 14px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newname"] {
+	height: 18px;
+	font-size: 14px;
+	margin:4px 10px 4px 22px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newpass"] {
+	height: 18px;
+	font-size: 14px;
+	margin:4px 10px 4px 22px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+body {
+	font-size:12px;
+}
+
+[name="divYourSecretSanta"] [name="WSSAddressForm"] [name="WSSAddress"] {
+	margin:20px auto;
+}
+
+#WishesChoiceHidden {
+	font-size: 13px;
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="AddWishSecond"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="NewWish"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="NewAdres"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="Newname"], 
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="Newpass"] {  
+	height: 18px;
+	font-size: 12px;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newname"] {
+	height: 18px;
+	font-size: 12px;
+	margin:auto; 
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="Newpass"] {
+	height: 18px;
+	font-size: 12px;
+	margin:auto;
+}
+
+
+
+
+}

@@ -1,0 +1,624 @@
+
+
+
+#WSSAddressComfurm, #WishesComputerChoice, #WishesChoiceB, #WishesChoiceB2, #WishesChoiceSRW, #WishesChoiceSSSW, #WishesChoiceShowAll,
+#WishesChoiceShowPSW, [name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"],
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"],
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"]
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"]
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"]{
+	width: auto; 
+	height: 18px;
+	font-size: 16px;
+	display:block;
+	visibility:visible; 
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) { 
+
+#WSSAddressComfurm {
+	font-size: 16px;
+	margin:10px auto;
+}
+
+#WishesComputerChoice, #WishesChoiceB, #WishesChoiceB2, #WishesChoiceSRW, #WishesChoiceSSSW, #WishesChoiceShowAll,
+#WishesChoiceShowPSW, [name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"],
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"] {
+	height:20px;
+	font-size: 16px; 
+}
+
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"] {
+	width: 90px; 
+	height:20px;
+	font-size: 16px; 
+	margin:10px auto;
+}
+
+.btnFine {
+	width: 90px;
+	height:20px;
+	font-size: 16px; 	
+}
+
+#WishesComputerChoice {
+	width:180px; 
+}
+
+#WishesChoiceB, #WishesChoiceB2 {
+	width: 140px; 
+}
+
+#WishesChoiceSRW {
+	width:160px; 
+}
+
+#WishesChoiceSSSW {
+	width: 210px;
+}
+
+#WishesChoiceShowAll, #WishesChoiceShowPSW {
+	width: 150px; 
+}
+
+#WSSDataOfChoice, #WSSAddressOfShipping {
+	width: 50px;
+}
+
+.main form button:first-of-type {
+	margin:auto;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+.main form button:nth-of-type(2){
+	margin:auto;
+	margin-top:-39px;
+	margin-right:1px;
+}
+
+.main button:nth-of-type(3) {
+	margin:10px auto;
+}
+
+.main button:nth-of-type(4){
+	margin:10px auto;
+}
+
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesComputerChoice{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesChoiceB { 
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSConfirmForm"] [name="WSSConfirmForm"] #WishesChoiceB2{
+	margin:8px 1px auto auto;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSSSW {
+	margin:-39px 1px auto auto;
+}
+
+
+[name="divWSSChoiceForm"] #WSSDataOfChoice {
+	position:relative;
+	top:-200px;
+	left:300px;
+}
+
+[name="divWSSChoiceForm"] #WSSAddressOfShipping {
+	position:relative;
+	top:-220px;
+	left:360px;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceShowPSW {
+	margin:auto;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceSSSW {
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceShowPSW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceSRW {
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSSSW {
+	margin:-19px 1px auto auto;
+}
+
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSSSW {
+	margin:-39px 1px auto auto;	
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceShowPSW {
+	margin:auto;	
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"] {
+	width: 90px;
+	margin:auto;	
+}
+
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataP"],
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataB"]{ 
+	width: 70px; 
+	height: 20px;
+	font-size: 16px;
+	margin:10px 40px;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+#WSSAddressComfurm {
+	margin:4px auto;
+}
+
+#WishesComputerChoice, #WishesChoiceB, #WishesChoiceB2, #WishesChoiceSRW, #WishesChoiceSSSW, #WishesChoiceShowAll,
+#WishesChoiceShowPSW, [name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"],
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"] {
+	height:20px;
+	font-size: 14px; 
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"]{
+	width: 80px; 
+	height:20px;
+	font-size: 14px;
+	margin:10px auto;	
+}
+
+.btnFine {
+	width: 80px;
+	height:20px;
+	font-size: 14px; 	
+}
+
+#WishesChoiceShowAll {
+	width: 120px;
+	margin:auto;
+	visibility:hidden;	
+}
+
+#WishesComputerChoice {
+	width:180px; 
+}
+
+#WishesChoiceB, #WishesChoiceB2 {
+	width: 140px; 
+}
+
+#WishesChoiceSRW {
+	width:140px;
+}
+
+#WishesChoiceSSSW {
+	width: 186px;
+}
+
+#WishesChoiceShowPSW {
+	width: 130px; 
+}
+
+#WSSDataOfChoice, #WSSAddressOfShipping {
+	width: 50px; 
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesComputerChoice{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesChoiceB {
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSConfirmForm"] [name="WSSConfirmForm"] #WishesChoiceB2{
+	margin:8px 1px auto auto;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSRW{ 
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSSSW {
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceShowPSW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceSSSW {
+	margin:-36px 1px auto auto;
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceSRW {
+	margin:-39px 1px auto auto;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSSSW {
+	margin:-19px 1px auto auto;
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSSSW {
+	margin:-39px 1px auto auto;	
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceShowPSW {
+	margin:auto;	
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"] {
+	width: 80px;
+	margin:auto;	
+}
+
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataP"],
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataB"]{ 
+	width: 70px; 
+	height: 22px;
+	font-size: 16px;
+	margin:10px 30px;
+}
+
+[name="divWSSChoiceForm"] #WSSDataOfChoice {
+	position:relative;
+	top:-208px;
+	left:260px;
+	
+}
+
+[name="divWSSChoiceForm"] #WSSAddressOfShipping {
+	position:relative;
+	top:-228px;
+	left:320px;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+#WSSAddressComfurm {
+	margin:2px auto;
+}
+
+#WishesComputerChoice, #WishesChoiceB, #WishesChoiceB2, #WishesChoiceSRW, #WishesChoiceSSSW, #WishesChoiceShowAll,
+#WishesChoiceShowPSW, [name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"],
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"] {
+	width: 80px; 
+	height:18px;
+	font-size: 14px; 
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"]{
+	width: 80px; 
+	height:20px;
+	font-size: 14px;
+	margin:10px auto;	
+}
+
+.btnFine {
+	width: 80px;
+	height:18px;
+	font-size: 14px; 	
+}
+
+#WishesChoiceShowAll {
+	width: 114px; 
+	margin:4px auto auto auto;
+	visibility:hidden;	
+}
+
+#WishesComputerChoice {
+	width:160px; 
+}
+
+#WishesChoiceB, #WishesChoiceB2 {
+	width: 120px;
+}
+
+#WishesChoiceSRW {
+	width:134px;
+}
+
+#WishesChoiceSSSW {
+	width: 180px;
+}
+
+#WishesChoiceShowPSW {
+	width:124px;  
+}
+
+#WSSDataOfChoice, #WSSAddressOfShipping {
+	width: 50px; 
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesComputerChoice{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesChoiceB { 
+	margin:-35px 1px auto auto; 
+}
+
+[name="divWSSConfirmForm"] [name="WSSConfirmForm"] #WishesChoiceB2{
+	margin:1px 1px auto auto;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSSSW {
+	margin:-36px 1px auto auto; 
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceShowPSW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceSSSW {
+	margin:-36px 1px auto auto; 
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceShowPSW{
+	margin:1px auto auto 1px;	
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceSRW {
+	margin:-35px 1px auto auto; 	
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSSSW {
+	margin:-19px 1px auto auto; 
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSSSW {
+	margin:-35px 1px auto auto;	
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceShowPSW {
+	margin:4px auto auto auto;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"] {
+	width: 80px; 
+	margin:auto;
+}
+
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataP"],
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataB"]{ 
+	width: 60px; 
+	height: 21px;
+	font-size: 15px;
+	margin:10px 20px;
+}
+
+[name="divWSSChoiceForm"] #WSSDataOfChoice {
+	position:relative;
+	top:-202px;
+	left:220px;
+}
+
+[name="divWSSChoiceForm"] #WSSAddressOfShipping {
+	position:relative;
+	top:-222px;
+	left:280px;
+}
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+#WishesComputerChoice, #WishesChoiceB, #WishesChoiceB2, #WishesChoiceSRW, #WishesChoiceSSSW, #WishesChoiceShowAll,
+#WishesChoiceShowPSW, [name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"],
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"] {
+	width: 80px; 
+	height:18px;
+	font-size: 13px; 
+}
+
+[name="divWSSAddWishForm"] [name="WSSAddWishForm"] [name="ChangeAddWishSP"],
+[name="divWSSChangeWishForm"] [name="WSSChangeWishForm"] [name="ChangeWishP"],
+[name="divWSSChangeAdresForm"] [name="WSSChangeAdresForm"] [name="ChangeAdresP"],
+[name="divWSSChangeNicknameForm"] [name="WSSChangeNicknameForm"] [name="ChangeNicknameP"],
+[name="divWSSChangePasswordForm"] [name="WSSChangePasswordForm"] [name="ChangePasswordP"]{
+	width: 80px; 
+	height:20px;
+	font-size: 14px; 
+	margin:10px auto;
+}
+
+#WishesChoiceShowAll {
+	width: 110px; 
+	margin:8px auto auto auto;
+	visibility:hidden;
+}
+
+#WishesComputerChoice {
+	width:150px; 
+}
+
+#WishesChoiceB, #WishesChoiceB2 {
+	width: 120px;
+}
+
+#WishesChoiceSRW {
+	width:130px; 
+}
+
+#WishesChoiceSSSW {
+	width: 166px; 
+}
+
+#WishesChoiceShowPSW {
+	width:124px;  
+}
+
+#WSSDataOfChoice, #WSSAddressOfShipping {
+	width:50px;
+}
+
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesComputerChoice{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm2"] [name="WSSChoiceForm2"] #WishesChoiceB {
+	margin:-33px 1px auto auto; 
+}
+
+[name="divWSSConfirmForm"] [name="WSSConfirmForm"] #WishesChoiceB2{
+	margin:auto;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSChoiceForm"] [name="WSSChoiceForm"] #WishesChoiceSSSW {
+	margin:-32px 1px auto auto; 
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceShowPSW{
+	margin:auto;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+[name="divWSSRemainingWishesForm"] [name="WSSRemainingWishesForm"] #WishesChoiceSSSW {
+	margin:-32px 1px auto auto; 
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceShowPSW{
+	margin:1px auto auto 1px;	
+}
+
+[name="divWSSSecretSantaWishesForm"] [name="WSSSecretSantaWishesForm"] #WishesChoiceSRW {
+	margin:-32px 1px auto auto;  
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSSelectedWishesForm"] [name="WSSSelectedWishesForm"] #WishesChoiceSSSW {
+	margin:-19px 1px auto auto; 
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSRW{
+	margin:1px auto auto 1px;
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceSSSW {
+	margin:-36px 1px auto auto;	
+}
+
+[name="divWSSAllWishesForm"] [name="WSSAllWishesForm"] #WishesChoiceShowPSW {
+	margin:4px auto auto auto;
+}
+
+[name="divWSSChangeNameAndPassForm"] [name="WSSChangeNameAndPassForm"] [name="ChangeNameAndPass2"] {
+	margin:auto;
+	
+}
+
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataP"],
+[name="divWSSDelPersonDataForm"] [name="WSSDelPersonDataForm"] [name="DelPersonDataB"]{ 
+	width: 50px; 
+	height: 18px;
+	font-size: 13px;
+	margin:10px 20px;
+}
+
+[name="divWSSChoiceForm"] #WSSDataOfChoice {
+	position:relative;
+	top:-192px;
+	left:200px;
+}
+
+[name="divWSSChoiceForm"] #WSSAddressOfShipping {
+	position:relative;
+	top:-182px;
+	left:200px;
+}
+
+
+}

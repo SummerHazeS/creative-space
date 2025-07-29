@@ -1,0 +1,520 @@
+
+a {
+	text-decoration: none;
+	color:white; 
+	background-color: transparent;
+}
+
+ul, li {
+	list-style-type: none;
+	list-style-position: inside;
+	list-style-image: none;
+}
+
+ul {
+	background-color: transparent;
+	display: inline-block;
+	float:right;
+}
+
+li {
+	max-width:300px;
+	height:18px; 
+	background-color: transparent;
+	border-top:1px hidden #ffffff;
+	border-right:1px hidden #ffffff;
+	display: inline-block;
+	float:left;
+	position: relative;
+	margin:0px;
+	padding:0px;
+	left:0px;
+	top:0px;
+	bottom:0px;
+}
+
+li:hover {
+	max-width:300px;
+	height:18px; 
+	background-color: transparent;
+	border-top:1px hidden #ffffff;
+	border-right:1px hidden #ffffff;
+	padding:0px;
+	margin:0px;
+	display: inline-block;
+	position: relative;
+	left:0px;
+	top:0px;
+	bottom:0px;
+}
+
+li:hover a {
+	color:blue;
+	background-color: transparent;
+	border-bottom:1px hidden #ffffff;
+	border-left:1px hidden #ffffff;
+}
+
+#menu a {
+	color:white;
+}
+
+#menu button {
+	font-size: 16px;
+	text-align:justify;
+	text-align-last: left;
+	display:inline-block;
+	float:right;
+	clear:none;
+}
+
+#menu button:hover {
+	font-size: 16px;
+}
+
+#BB, #CC {
+	width: auto;
+	height: auto;
+	text-align-last: left;
+	padding: 1px;
+	display: none;
+	z-index: 1;
+	float: none;
+	clear:both;
+}
+
+#BB li, #CC li {
+	margin:1px auto; 
+}
+
+#BB a, #BB a:hover{
+	text-decoration: none;
+	text-align: left;
+	padding: 1px 0px;
+	display: block;
+	z-index: 2;
+	float:none;
+}
+
+#BB1:hover #BB, #CC1:hover #CC {  
+	width: auto;
+	height: auto;
+	text-align:justify;
+	text-align-last: left;
+	background-color: transparent; 
+	margin:auto;
+	padding: 2px 1px;
+	display: block;
+	z-index: 2;
+	float: left;
+}
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"] {
+	width:184px;
+	height:18px; 
+	font-size:16px;
+	font-weight: 500;
+	color:#DBE5FF;   
+	background-color: #012998;
+	box-shadow: 2px 2px 10px 2px #FFFFFF;
+	display: inline-block;
+	position: static;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	margin:0px;
+	padding:0px;
+}
+
+[name="ShowWishes"] {
+	width:160px;
+}
+
+[name="BSendInvitationForSSW"] {
+	width:130px;
+}
+
+#BB1, [name="ChangeData"] {
+	width: 150px;	
+}
+
+#CC1 {
+	width: 160px;	
+}
+
+[name="ExitSait"] {
+	width:86px;
+}
+
+[name="YourSecretSanta"]:hover, [name="ShowWishes"]:hover, [name="BSendInvitationForSSW"]:hover, [name="ChangeData"]:hover,
+[name="ExitSait"]:hover {
+	color:#DBE5FF;
+	background-color:  #012998;
+	border-top:1px hidden blue;
+	border-right:1px hidden #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	box-shadow: 4px 2px 6px 4px #FFFFFF;
+	z-index:2;
+}
+
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"],
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	height:20px;
+	font-size:15px;
+	font-weight: 500;
+	color:#DBE5FF;
+	background-color: #012998;
+	z-index:2;
+}
+
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	width:160px;
+}
+
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"] {
+	width:210px;
+}
+
+[name="ChangeNickname"]:visited, [name="ChangePassword"]:visited, [name="ChangeNameAndPass"]:visited, [name="DelPersonData"]:visited {	
+	font-size:16px;
+	font-weight: 500;
+	color:blue;
+	background-color: #012998;
+	border-left:1px solid #DBE5FF;
+	border-bottom:1px solid #DBE5FF;
+	z-index:3;
+}
+
+[name="ChangeNickname"]:hover, [name="ChangePassword"]:hover, [name="ChangeNameAndPass"]:hover, [name="DelPersonData"]:hover {	
+	font-size:16px;
+	font-weight: 500;
+	color:#DBE5FF;
+	background-color: #012998;
+	box-shadow: 2px 2px 10px 2px #FFFFFF;
+	z-index:3;
+}
+
+@media only screen and (min-width: 992px) { 
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"] {
+	position:relative;
+	top:-20px;
+}
+
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"] {
+	position:relative;
+	top:-20px;
+}
+
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	position:relative;
+	top:-20px;
+}
+ 
+[name="ExitSait"] { 
+	width:56px;
+}
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"] {
+	position:relative;
+	top:-20px;
+}
+
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"] {
+	position:relative;
+	top:-20px;
+}
+
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	width:150px;
+	position:relative;
+	top:-20px;
+	left:10px;
+}
+
+[name="YourSecretSanta"] { 
+	width:178px;
+	left:10px;
+}
+
+[name="ShowWishes"] { 
+	width:150px;
+}
+
+[name="BSendInvitationForSSW"] { 
+	width:124px;
+}
+
+[name="ChangeData"] { 
+	width:150px;
+}
+
+[name="ExitSait"] { 
+	width:50px;
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"] {
+	display: block;
+	z-index:1;
+	position: relative;
+	top:0px;
+	right:20px;
+	margin:1px;
+	padding:1px;
+	width:178px;
+	height:18px;
+	font-weight: 500;
+	font-size:14px;
+	box-shadow: 2px 2px 10px 2px white;
+	visibility:visible;
+	overflow:visible;
+	text-align: left;
+}
+
+[name="YourSecretSanta"] {
+	position: fixed;
+	top:40px;
+	right:10px;
+	left:auto;
+}
+
+[name="ShowWishes"] {
+	position: fixed;
+	top:60px;
+	right:10px;
+	left:auto;
+}
+
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	position: fixed;
+	top:80px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeWish"] {
+	display: block;
+	position: fixed;
+	top:100px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeAddress"] {
+	display: block;
+	position: fixed;
+	top:120px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeLastData"] {
+	display: block;
+	position: fixed;
+	top:140px;
+	right:10px;
+	left:auto;
+}
+
+[name="BSendInvitationForSSW"] {
+	position: fixed;
+	top:80px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeData"] {
+	position: fixed;
+	top:101px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"] {
+	position:fixed;
+	top:120px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangePassword"] {
+	display: block;
+	position: fixed;
+	top:140px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeNameAndPass"] {
+	display: block;
+	position: fixed;
+	top:160px;
+	right:10px;
+	left:auto;
+}
+
+[name="DelPersonData"] {
+	display: block;
+	position: fixed;
+	top:180px;
+	right:10px;
+	left:auto;
+}
+
+[name="ExitSait"] {
+	position: fixed;
+	top:120px;
+	right:10px;
+	left:auto;
+}
+
+#CC {
+	font-size:14px;
+	text-align-last: right;
+	border:1px hidden #000000;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 1px;
+	display: none;
+	z-index: 1;
+	visibility:visible;
+	float: right;
+	clear:both;
+	position: fixed;
+	top:190px;
+	right:10px;
+	left:auto;
+}
+
+#BB {
+	font-size:14px;
+	text-align-last: right;
+	padding: 1px;
+	display: none;
+	z-index: 1;
+	visibility:visible;
+	float: right;
+	clear:both;
+	position: fixed;
+	top:121px;
+	right:10px;
+	left:auto;
+}
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"],
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"],
+[name="ChangeNickname"], [name="ChangePassword"], [name="ChangeNameAndPass"], [name="DelPersonData"] {
+	 
+}
+
+[name="YourSecretSanta"], [name="ShowWishes"], [name="BSendInvitationForSSW"], [name="ChangeData"], [name="ExitSait"] {
+	height:18px; 
+	font-size:16px;
+	font-weight: 500;
+	box-shadow: 2px 2px 10px 2px white; 
+}
+
+[name="YourSecretSanta"] {
+	width:184px;
+	height:18px; 
+	margin:2px;
+	position: fixed;
+	top:40px;
+	right:10px;
+	left:auto;
+}
+
+[name="ShowWishes"] {
+	width:184px;
+	height:18px; 
+	margin:2px;
+	position: fixed;
+	top:60px;
+	right:10px;
+	left:auto;
+}
+
+[name="WriteWish"], [name="ChangeWish"], [name="ChangeAddress"], [name="ChangeLastData"] {
+	right:10px;
+	left:auto;
+}
+
+#CC {
+	width: auto;
+	height: auto;
+	font-size:14px;
+	text-align-last: right;
+	border:1px hidden #000000;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 1px;
+	display: none;
+	z-index: 1;
+	visibility:visible;
+	float: right;
+	clear:both;
+	position: absolute;
+	top:80px;
+	left:10px;
+}
+
+[name="BSendInvitationForSSW"] {
+	width:184px;
+	height:18px; 
+	margin:2px;
+	position: fixed;
+	top:80px;
+	right:10px;
+	left:auto;
+}
+
+[name="ChangeData"] {
+	width:184px;
+	height:18px; 
+	margin:2px;
+	position: fixed;
+	top:100px;
+	right:10px;
+	left:auto;
+}
+
+#BB {
+	width: auto;
+	height: auto;
+	font-size:14px;
+	text-align-last: right;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 1px;
+	display: none;
+	z-index: 1;
+	visibility:visible;
+	float: right;
+	clear:both;
+	position: absolute;
+	top:100px;
+	left:10px;
+}
+
+[name="ExitSait"] {
+	width:184px;
+	height:18px; 
+	margin:2px;
+	position: fixed;
+	top:120px;
+	right:10px;
+	left:auto;
+}
+
+}
+

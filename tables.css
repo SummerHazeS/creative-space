@@ -1,0 +1,338 @@
+
+
+table {
+	min-width: 200px;
+	width: 80%;
+	height: auto;
+	border: 1px solid blue;
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+
+tr:hover {
+	color:#FE2712;
+	background-color:#FFFFF0;
+}
+
+th, td {
+	height: 30px;
+	padding: 5px;
+	border: 2px solid #FE2712;
+	text-align: center;
+}
+
+td {
+	width: 800px;
+	height: 40px;
+	font-size:14px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td:first-of-type {
+	width: 60px;
+}
+
+.tableColor1 {
+	color: #FE2712;
+	background-color:#151599;
+}
+
+
+
+[name="divWSSChoiceForm2"] table, [name="divWSSConfirmSelectedWishes"] table, 
+[name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table, [name="divWSSChoiceForm"] table,
+[name="divWSSRemainingWishesForm"] table, [name="divWSSSecretSantaWishesForm"] table,
+[name="divWSSSelectedWishesForm"] table, [name="divWSSAllWishesForm"] table {
+	width: 60%;
+	height: auto;
+	font-size: 16px;
+	color: #FE2712;
+	background-color:#151599;
+	text-align: justify;
+	margin:30px auto 10px auto;
+	display:block;
+	visibility:visible;
+	overflow: visible;
+}
+
+[name="divWSSSecretSantaWishesForm"] table {
+	margin:30px auto 10px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table, [name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table,
+[name="divWSSChoiceForm"] table {
+	margin:30px auto auto auto;
+}
+
+
+
+@media only screen and (min-width: 992px) { 
+
+tr:hover {
+	width: 70%;
+}
+
+[name="divWSSChoiceForm2"] table,[name="divWSSChoiceForm"] table, [name="divWSSRemainingWishesForm"] table,
+[name="divWSSSecretSantaWishesForm"] table, [name="divWSSSelectedWishesForm"] table {
+	width: 70%;
+	height: auto;
+	border:1px solid blue;
+	font-size: 16px;
+	margin:40px auto 20px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table, [name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table {
+	margin:50px auto 2px auto;
+}
+
+.divTablesData [name="divWSSConfirmForm2"] table {
+	margin:80px auto 6px auto;
+}
+
+[name="divWSSChoiceForm"] table {
+	margin:20px auto 2px auto;
+}
+
+[name="divWSSRemainingWishesForm"] table, [name="divWSSSelectedWishesForm"] table, [name="divWSSAllWishesForm"] table {
+	width: 70%;
+	margin:10px auto;
+}
+
+[name="divWSSSecretSantaWishesForm"] table {
+	margin:10px auto;
+}
+
+th, td {
+	height: 20px;
+	padding: 2px;
+	text-align: left;
+}
+
+td:first-of-type {
+	height: 40px;
+}
+
+td:nth-of-type(2) {
+	width: 800px;
+	 
+}
+/*
+[name="divWSSChoiceForm"] table td:nth-of-type(2) {
+	width: 800px;
+	 
+}
+/*
+[name="divWSSChoiceForm2"] table td:nth-of-type(2) {
+	width: 800px;
+}
+*/
+[name="divWSSSecretSantaWishesForm"] table td:nth-of-type(3), [name="divWSSSelectedWishesForm"] table td:nth-of-type(3) {
+	width: 200px;
+}
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+[name="divWSSChoiceForm2"] table, [name="divWSSChoiceForm"] table, [name="divWSSConfirmSelectedWishes"] table, 
+[name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table, [name="divWSSRemainingWishesForm"] table,
+[name="divWSSSecretSantaWishesForm"] table, [name="divWSSSelectedWishesForm"] table {
+	width: 80%;
+	height: auto;
+	border:1px solid blue;
+	font-size: 16px;
+	margin:60px auto 20px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table, [name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table {
+	margin:50px auto 2px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table {
+	margin:80px auto 2px auto;
+}
+
+.divTablesData [name="divWSSConfirmForm2"] table {
+	margin:80px auto 6px auto;
+}
+
+[name="divWSSChoiceForm"] table {
+	margin:20px auto 2px auto;
+}
+
+[name="divWSSRemainingWishesForm"] table, [name="divWSSSelectedWishesForm"] table, [name="divWSSAllWishesForm"] table,
+[name="divWSSSecretSantaWishesForm"] table {
+	margin:10px auto;
+}
+
+th, td {
+	height: 20px;
+	padding: 5px;
+	text-align: left;
+}
+
+td {
+	height: 40px;
+	font-size:14px;
+}
+
+td:first-of-type {
+	width:60px;
+	height: 40px;
+	font-size:14px;
+}
+
+td:nth-of-type(2) {
+	width: 770px;
+}
+
+[name="divWSSChoiceForm2"] table td:nth-of-type(2) {
+	width: 800px;
+}
+
+[name="divWSSSecretSantaWishesForm"] table td:nth-of-type(3), [name="divWSSSelectedWishesForm"] table td:nth-of-type(3) {
+	width: 170px;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+[name="divWSSConfirmSelectedWishes"] table, [name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table,
+[name="divWSSChoiceForm"] table, [name="divWSSRemainingWishesForm"] table, [name="divWSSSecretSantaWishesForm"] table,
+[name="divWSSSelectedWishesForm"] table {
+	width: 80%;
+	height: auto;
+	border:1px solid blue;
+	font-size: 14px;
+	margin:50px auto 2px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table {
+	margin:30px auto 6px auto;
+}
+
+.divTablesData [name="divWSSConfirmForm2"] table {
+	margin:30px auto 6px auto;
+}
+
+[name="divWSSChoiceForm"] table {
+	margin:20px auto 2px auto;
+}
+
+[name="divWSSRemainingWishesForm"] table, [name="divWSSSelectedWishesForm"] table, [name="divWSSAllWishesForm"] table {
+	margin:10px auto;
+}
+
+[name="divWSSSecretSantaWishesForm"] table {
+	margin:10px auto;
+}
+
+[name="divWSSSelectedWishesForm"] table {
+	width: 80%;
+}
+
+th, td {
+	height: 20px;
+	padding: 3px;
+	text-align: left;
+}
+
+td {
+	width: 560px;
+	height: 30px;
+	font-size:14px;
+}
+
+td:first-of-type {
+	width: 40px;
+}
+
+[name="divWSSSelectedWishesForm"] td:nth-of-type(3), [name="divWSSSecretSantaWishesForm"] td:nth-of-type(3) {
+	width:160px;
+}
+
+
+}
+
+@media only screen and (max-width: 600px) { 
+
+body {
+	font-size:12px;
+}
+
+table {
+	width: 590px;
+	font-size: 13px;
+	border:1px solid blue;
+}
+
+[name="divWSSChoiceForm2"]table {
+	width: 60%;
+	height: auto;
+	margin:40px auto 6px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table,[name="divWSSConfirmForm"] table, [name="divWSSConfirmForm2"] table {
+	width: 80%;
+	height: auto;
+	max-height:300px;
+	margin:40px auto 6px auto;
+}
+
+[name="divWSSConfirmSelectedWishes"] table {
+	margin:60px auto 6px auto;
+}
+
+.divTablesData [name="divWSSConfirmForm2"] table {
+	margin:50px auto 6px auto;
+}
+
+[name="divWSSChoiceForm"]table {
+	width: 80%;
+	max-width: 590px;
+	height: auto;
+	margin:20px auto 2px auto;
+}
+
+[name="divWSSRemainingWishesForm"]table, [name="divWSSSecretSantaWishesForm"] table, [name="divWSSSelectedWishesForm"] table,
+[name="divWSSAllWishesForm"] table {
+	width: 80%;
+	height: auto;
+	margin:10px auto;
+}
+
+th, td {
+	height: 16px;
+	font-size:13px;
+	padding: 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td {
+	width: 400px;
+	max-width: 590px;
+}
+
+td:first-of-type {
+	width: 40px;
+}
+
+[name="divWSSChoiceForm2"] table td:nth-of-type(2) {
+	width: 360px; 
+}
+
+[name="divWSSSelectedWishesForm"] td:nth-of-type(3), [name="divWSSSecretSantaWishesForm"] td:nth-of-type(3) {
+	width:120px;
+}
+
+
+}

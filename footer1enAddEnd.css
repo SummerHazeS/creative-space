@@ -1,0 +1,108 @@
+
+
+	
+#AdminConnButton {
+	left:58px;
+}
+
+#Flag {
+	width: 22px;
+	height:22px;
+	z-index:2;
+	display:block;
+	position:fixed;
+	bottom:12px;
+	left:140px;
+	border:1px hidden red;
+}
+
+#Flag:hover {
+	width: 60px;
+	height:22px;
+	z-index:1;
+	display:block;
+}
+
+#FlagEn {
+	z-index:2;
+	display:block;
+	visibility:visible;
+	position:fixed;
+	bottom:10px;
+	left:142px;
+} 
+
+#FlagBg {
+	z-index:1;
+	display:block;
+	visibility:hidden;
+	position:fixed;
+	bottom:14px;
+	left:180px;
+} 
+
+#Flag:hover #FlagBg{
+	visibility:visible;
+}
+	
+
+@media only screen and (max-width: 992px) { 
+
+
+#AdminConnButton {
+	left:50px;
+}
+
+#Flag {
+	left:124px;
+}
+
+#FlagEn {
+	left:124px;
+}
+
+#FlagBg {
+	left:158px;
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+#AdminConnButton {
+	left:50px;
+}
+
+#Flag {
+	left:114px;
+}
+
+#FlagEn {
+	left:114px;
+}
+
+#FlagBg {
+	left:148px;
+}
+ 
+}
+
+@media only screen and (max-width: 600px) { 
+
+#AdminConnButton {
+	left:46px;
+}
+
+#Flag {
+	left:104px;
+}
+
+#FlagEn {
+	left:104px;
+}
+
+#FlagBg {
+	left:138px;
+}
+
+}
